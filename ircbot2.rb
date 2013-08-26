@@ -47,31 +47,4 @@ end
   	irc_server.puts "PRIVMSG #{channel} #{response}" + " "
   end
 end
-#
-
-#
-#irc_server.puts "NICK #{nick}"
-##irc_server.puts "PRIVMSG #{channel} :Hello from IRB Bot"
-
-# Hello, Bot!
-#until irc_server.eof? do
- # msg = irc_server.gets.downcase
- # puts msg
-
-  #wasGreeted = false
-  #greetings.each do |g|
- #   arr=[] << g
- #      wasGreeted = true if msg.include? arr[0]
-
-     
-
-#end
- # if msg.include? greeting_prefix and wasGreeted
- #   response = "Konbanwa"
-  #  irc_server.puts "PRIVMSG #{channel} :#{response}"
-  
- # end
-
-
-#end
 
